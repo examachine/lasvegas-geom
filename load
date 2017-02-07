@@ -1,0 +1,9 @@
+#load "dynarray.cmo"
+#load "digraph.cmo"
+#load "conflictgraph.cmo"
+#load "randomizedincr.cmo"
+#load "lineseg.cmo"
+#load "trapdiag.cmo"
+#load "linesegintxn.cmo"
+
+let s = [ ((10.,10.),(20.,9.)) ]

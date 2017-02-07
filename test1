@@ -1,0 +1,18 @@
+#load "dynarray.cmo"
+#load "digraph.cmo"
+#load "graph.cmo"
+#load "conflictgraph.cmo"
+#load "randomizedincr.cmo"
+#load "lineseg.cmo"
+#load "trapezoid.cmo"
+#load "trapdiag.cmo"
+#load "linesegintxn.cmo"
+
+open Linesegintxn
+open Graphics
+
+#trace LineSegIntxn.add_obj
+
+
+let s1 = [| ((150.,250.),(270.,130.)); ((200.,140.),(360.,250.)) |]
+let t = ConsTrapDiag.construct s1

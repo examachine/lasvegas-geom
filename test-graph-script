@@ -1,0 +1,18 @@
+#load "dynarray.cmo"
+#load "digraph.cmo"
+#load "graph.cmo"
+#load "conflictgraph.cmo"
+
+open Digraph
+
+#trace Digraph.add
+#trace Digraph.remove
+#trace Digraph.edge_in
+
+let x = Digraph.make ();;
+Digraph.add x (0,0);;
+Digraph.edge_in x (0,0);;
+Digraph.add x (0,1);;
+Digraph.edge_in x (0,1);;
+Digraph.remove x (0,0);;
+Digraph.edge_in x (0,0);;

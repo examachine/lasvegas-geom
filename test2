@@ -1,0 +1,8 @@
+#load "dynarray.cmo"
+#load "digraph.cmo"
+#load "lineseg.cmo"
+#load "trapezoid.cmo"
+#load "trapdiag.cmo"
+
+open Trapezoid
+
